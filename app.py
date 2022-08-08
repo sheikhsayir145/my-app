@@ -6,7 +6,8 @@ import pydeck as pdk
 
 
 DATA_URL = (
-    "C:\Users\sayir\Desktop\PROJECT\Motor_Vehicle_Collisions_-_Crashes.csv")
+    "C:\Users\sayir\Desktop\PROJECT\Motor_Vehicle_Collisions_-_Crashes.csv " 
+)
 st.title("Motor vehicle Collision in New York city")
 st.markdown("This application is a streamlit dashboard that can be used to analyze motor vehicle collisions in NYC.")
 @st.cache(persist=True)
